@@ -1,6 +1,6 @@
 const { token } = require('./config');
 const axios = require('axios');
-let user_id = '585794722';//которому придет сообщение 
+let user_id = '524922705';//которому придет сообщение 
 let my_id = '185014513'
 let text = 'Егор , ты правда важен для меня!'
 
