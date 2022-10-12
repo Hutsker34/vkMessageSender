@@ -14,6 +14,6 @@ app.use(express.urlencoded({ extended: true }));
 app.listen(port);
 
 //setInterval(sendMessage, 1000*20)
-cron.schedule('59 * * * *',function(){
+cron.schedule('20 4 * * *',function(){
     sendMessage()
 });
